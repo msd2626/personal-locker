@@ -41,7 +41,7 @@ npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
 ##  Assignment Submission
 
 * **Name:** Manjushree D
-* **Registration Number:** `<Your Reg. No>`
+* **Registration Number:** 24BCE1749
 * **Status:**  Completed
 * **Console Output:**
 
