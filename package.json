@@ -1,0 +1,20 @@
+{
+  "name": "personal-locker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@types/node": "^24.3.0",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.3",
+    "transcript": "^0.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
