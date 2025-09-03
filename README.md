@@ -19,7 +19,7 @@ npx hardhat test
 
 You can also run specific test types:
 
-```bash
+```bash 
 npx hardhat test solidity
 npx hardhat test mocha
 ```
