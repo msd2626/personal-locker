@@ -42,7 +42,7 @@ npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
 
 * **Name:** Manjushree D
 * **Registration Number:** `<Your Reg. No>`
-* **Status:** ✅ Completed
+* **Status:**  Completed
 * **Console Output:**
 
   ```txt
@@ -53,11 +53,3 @@ npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
 * **Deployed Contract Address (Sepolia):** `0x123...abc`
 * **Transaction Hash (Update):** `0xabc...def`
 
----
-
-Let me know if you'd like me to:
-
-* Auto-fill the contract address or tx hash from your console output
-* Help you re-commit this to GitHub
-
-Just paste your real outputs if you have them!
