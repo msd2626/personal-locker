@@ -1,57 +1,63 @@
-# Sample Hardhat 3 Beta Project (`mocha` and `ethers`)
+## Personal Locker – Hardhat 3 Beta Assignment
 
-This project showcases a Hardhat 3 Beta project using `mocha` for tests and the `ethers` library for Ethereum interactions.
+This project is part of an assignment to explore the new features of **Hardhat 3 Beta**, using Solidity, TypeScript, and Ethers.js to deploy and interact with a smart contract on the Sepolia testnet.
 
-To learn more about the Hardhat 3 Beta, please visit the [Getting Started guide](https://hardhat.org/docs/getting-started#getting-started-with-hardhat-3). To share your feedback, join our [Hardhat 3 Beta](https://hardhat.org/hardhat3-beta-telegram-group) Telegram group or [open an issue](https://github.com/NomicFoundation/hardhat/issues/new) in our GitHub issue tracker.
+### Project Overview
 
-## Project Overview
+* A simple smart contract called `PersonalLocker.sol` is written and deployed.
+* Hardhat 3 Beta was used for scripting, testing, and deploying.
+* Includes both deployment and interaction scripts (read, write, update message).
 
-This example project includes:
 
-- A simple Hardhat configuration file.
-- Foundry-compatible Solidity unit tests.
-- TypeScript integration tests using `mocha` and ethers.js
-- Examples demonstrating how to connect to different types of networks, including locally simulating OP mainnet.
+###  How to Run Tests
 
-## Usage
+To run the tests in this project:
 
-### Running Tests
-
-To run all the tests in the project, execute the following command:
-
-```shell
+```bash
 npx hardhat test
 ```
 
-You can also selectively run the Solidity or `mocha` tests:
+You can also run specific test types:
 
-```shell
+```bash
 npx hardhat test solidity
 npx hardhat test mocha
 ```
 
-### Make a deployment to Sepolia
+---
 
-This project includes an example Ignition module to deploy the contract. You can deploy this module to a locally simulated chain or to Sepolia.
+### Deployment on Sepolia
 
-To run the deployment to a local chain:
+To deploy the contract to the Sepolia testnet:
 
-```shell
-npx hardhat ignition deploy ignition/modules/Counter.ts
-```
-
-To run the deployment to Sepolia, you need an account with funds to send the transaction. The provided Hardhat configuration includes a Configuration Variable called `SEPOLIA_PRIVATE_KEY`, which you can use to set the private key of the account you want to use.
-
-You can set the `SEPOLIA_PRIVATE_KEY` variable using the `hardhat-keystore` plugin or by setting it as an environment variable.
-
-To set the `SEPOLIA_PRIVATE_KEY` config variable using `hardhat-keystore`:
-
-```shell
-npx hardhat keystore set SEPOLIA_PRIVATE_KEY
-```
-
-After setting the variable, you can run the deployment with the Sepolia network:
-
-```shell
+```bash
 npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
 ```
+
+> Make sure your `.env` file includes a funded Sepolia private key as `SEPOLIA_PRIVATE_KEY`.
+
+---
+
+##  Assignment Submission
+
+* **Name:** Manjushree D
+* **Registration Number:** `<Your Reg. No>`
+* **Status:** ✅ Completed
+* **Console Output:**
+
+  ```txt
+  Contract deployed to: 0x123...abc
+  Message updated to: "Assignment Completed"
+  Current message: Assignment Completed
+  ```
+* **Deployed Contract Address (Sepolia):** `0x123...abc`
+* **Transaction Hash (Update):** `0xabc...def`
+
+---
+
+Let me know if you'd like me to:
+
+* Auto-fill the contract address or tx hash from your console output
+* Help you re-commit this to GitHub
+
+Just paste your real outputs if you have them!
