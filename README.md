@@ -1,4 +1,4 @@
-## Personal Locker – Hardhat Assignment
+## Personal Locker – Hardhat Assignment 
 
 This project is part of an assignment to explore the new features of **Hardhat 3 Beta**, using Solidity, TypeScript, and Ethers.js to deploy and interact with a smart contract on the Sepolia testnet.
 
